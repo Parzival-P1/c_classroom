@@ -30,7 +30,7 @@ typedef struct  {
     EmpleadoDetalles details;
 } Empleado; 
 
-Empleado capturaEmpleado(Empleado empleadoInput) 
+Empleado capturaEmpleado(Empleado *empleadoInput) 
 {
     Empleado empleado;
     empleado.id = 100;

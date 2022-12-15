@@ -1,1 +1,6 @@
 <h1 align="center"> C - Classroom 📓 </h1>
+* STRUCTURAS, UNIONES, ENUMERACIONES
+* ARREGLOS
+* FUNCIONAES
+* PUNTEROS
+* LISTAS (PILAS,COLAS)
