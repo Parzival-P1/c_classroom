@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-#define MAX 10
+#define MAX 2
 // OPERACIONES,  ESCRITURA, LECTURA , ACTUALIZAR, ELIMINAR
 
 typedef struct {
@@ -54,16 +54,19 @@ int main()
     for (int index = 0; index < MAX; index++)
     {
         //Empleado empleado_ = capturaEmpleado(listaEmpleados[index]);
-        Empleado empleado =  scanEmpleado();
+        printf("Enter id: ");
+        scanf("%d", &listaEmpleados[index].id);
+         
+    
     }
 
     // Imprime Empleados
     for (int index = 0; index < MAX; index++) 
     {
         Empleado empleado = listaEmpleados[index];
-         printf("%s", empleado.details.name); 
-         printf("%d", empleado.id); 
-         printf("\n"); 
+        printf("%s", empleado.details.name); 
+        printf("%d", empleado.id); 
+        printf("\n"); 
     }
 
     return 0;
