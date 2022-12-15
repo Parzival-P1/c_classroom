@@ -1,14 +1,15 @@
-#include<stdio.h>
-#include<stdlib.h>
+#include <stdio.h>
+#include <stdlib.h>
 
-int main()
-{
-  //node structure
   struct node
   {
       int data;
       struct node *next;
   };
+
+int main()
+{
+ 
 
   //declaring nodes
   struct node *head,*middle,*last;
@@ -37,7 +38,7 @@ int main()
       printf("%d->",temp->data);
       temp = temp->next;
   }
-  printf("NULL");
+  printf("NULL..");
 
   return 0;
 }
